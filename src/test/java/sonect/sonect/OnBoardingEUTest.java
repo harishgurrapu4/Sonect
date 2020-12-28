@@ -11,13 +11,13 @@ import sonect.sonect.PhoneNo;
 
 public class OnBoardingEUTest  extends TestBase{
 		
-		OnBoarding OnBoard;
-		Util util;
-		PhoneNo phoneno;
+	OnBoarding OnBoard;
+	Util util;
+	PhoneNo phoneno;
 		
-		public OnBoardingEUTest(){
+	public OnBoardingEUTest(){
 		super();
-		}	
+	}	
 		
 	@BeforeMethod
 	public void setUp(){
@@ -1043,7 +1043,7 @@ public class OnBoardingEUTest  extends TestBase{
 		
 		Thread.sleep(3000);
 		
-		OnBoard.searchAddress.sendKeys("Zu");
+		OnBoard.searchAddress.sendKeys("Z");
 		
 		OnBoard.addressList.click();
 		
@@ -1105,7 +1105,7 @@ public class OnBoardingEUTest  extends TestBase{
 		
 		Thread.sleep(3000);
 		
-		OnBoard.searchAddress.sendKeys("Zu");
+		OnBoard.searchAddress.sendKeys("Z");
 		
 		OnBoard.addressList.click();
 		
@@ -1196,7 +1196,7 @@ public class OnBoardingEUTest  extends TestBase{
 		
 		Thread.sleep(3000);
 		
-		OnBoard.searchAddress.sendKeys("Zu");
+		OnBoard.searchAddress.sendKeys("Z");
 		
 		OnBoard.addressList.click();
 		
